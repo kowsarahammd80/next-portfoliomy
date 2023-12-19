@@ -1,0 +1,22 @@
+.iamgeDiv{
+    width: 100%;
+    height: 65vh;   
+}
+.heroImg{
+    width: 100%;
+    height: 100%;
+    border: 8px solid black;
+}
+.heroContact-button{
+    border: 1px solid gray;
+    padding: 5px 10px;
+    font-weight: 600;
+    transition: 0.3s ;
+}
+.heroContact-button:hover{
+    border: 2px solid black;
+    transition: 0.3s ;
+}
+.heroBg{
+    background: linear-gradient( 150deg, rgb(218, 217, 217), rgb(197, 197, 197), rgb(98, 98, 98) );
+}
