@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeroSection.css';
 
+
 const HeroSection = () => {
     return (
         <div className='pt-20 heroBg'>
@@ -9,11 +10,11 @@ const HeroSection = () => {
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 h-screen'>
 
-                     <div className='flex justify-center items-center my-5'>
+                     <div className='flex justify-center items-center'>
 
-                        <div>
+                        <div className='text-design'>
 
-                          <p className='text-lg font-semibold'>Assalamu Alaikum</p>
+                          <p className='text-lg font-semibold text-design'>Assalamu Alaikum</p>
                           <h1 className='text-xl lg:text-3xl xl:text-3xl md:text-3xl font-semibold mt-1'>My Selfe, Md Kowsar Ahamed</h1>
                           <p className='text-xl font-semibold mt-1'>Front End Developer</p>
 
@@ -37,7 +38,7 @@ const HeroSection = () => {
                      <div className='flex justify-center items-center mx-5 lg:mx-28 xl:mx-28 md:mx-16'>
 
                         <div className='iamgeDiv'>
-                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCnmYrFIP1VtBj4mUkHl5uRCSKT1ye7qDLZQ&usqp=CAU" className='heroImg' alt="" />
+                          <img src="https://scontent-ccu1-2.xx.fbcdn.net/v/t39.30808-6/337982794_1173057913395534_7542538759370505223_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeGEQTbWqiNuU84ke_cCmi_-0x5AinlcVRnTHkCKeVxVGa5agYJm_J7HohwgGMVvoyIoOkpPKPbGTR4FZhemVB4P&_nc_ohc=Jx458CZVUVYAX9_RM-I&_nc_ht=scontent-ccu1-2.xx&oh=00_AfD_whGwdDB3w2sw_o3db99GWn9lWTGJ9JFyzs7P2otAsA&oe=65875A21" className='heroImg' alt="" />
                         </div>   
                         
                      </div>

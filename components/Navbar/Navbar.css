@@ -71,11 +71,6 @@ nav {
 }
 
 
-.nav-bookNow{
-	background: linear-gradient( 30deg, #ef93b8, #ca5383, #f17aaa );
-}
-
-
 @media only screen and (max-width: 1024px) {
 
 	header .nav-btn {
