@@ -1,0 +1,18 @@
+.inputfild{
+    width: 100%;
+    border: 1px solid gray;
+    height: 50px;
+    box-shadow: 20px 20px 60px rgba(128, 128, 128, 0.14), inset -20px -20px -60px rgba(255, 255, 255, 0.238);
+    border-radius: 5px;
+}
+.inputDiv{
+    box-shadow: 2px 2px 10px rgb(181, 180, 180);
+    border-radius: 5px;
+}
+.textfild{
+    width: 100%;
+    border: 1px solid gray;
+    height: 120px;
+    box-shadow: 20px 20px 60px rgba(128, 128, 128, 0.14), inset -20px -20px -60px rgba(255, 255, 255, 0.238); 
+    border-radius: 5px;
+}

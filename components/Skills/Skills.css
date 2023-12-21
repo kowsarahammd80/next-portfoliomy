@@ -1,0 +1,13 @@
+.skillImgDiv{
+    width: 100%;
+    height: 20vh;
+}
+.skillImg{
+   width: 100%;
+   height: 100%;
+   cursor: pointer;
+   transition: 0.3s ease-in-out;
+}
+.skillImg:hover{
+    transform: scale(1.1);
+}

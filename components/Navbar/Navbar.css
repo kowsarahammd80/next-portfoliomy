@@ -8,7 +8,7 @@ header {
 	color: var(--textColor);
 }
 .navBar-background{
-	background:linear-gradient( 80deg, rgb(218, 217, 217), rgb(211, 210, 210), rgb(212, 209, 209) );
+	background:linear-gradient( 80deg, rgb(213, 211, 211), rgb(212, 210, 210), rgb(192, 189, 189) );
 	/* background: transparent; */
 }
 nav a {
@@ -16,11 +16,15 @@ nav a {
 	/* color: var(--textColor); */
     color: black;
 	text-decoration: none;
+	transition: 0.3s ease-in-out;
 }
 
 nav a:hover {
 	/* color: var(--secondaryColor); */
-	color: orange;	
+	/* color: orange;	 */
+	/* opacity: 90%; */
+	text-shadow: 1.5px 1.5px 5px rgb(157, 155, 155);
+	margin-top: -5px;
 }
 
 header .nav-btn {
