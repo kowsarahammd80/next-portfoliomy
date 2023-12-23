@@ -39,8 +39,6 @@ const projects = [
       "name": "Pandda",
       "discription": "Panda e-commerce demo website. This project mack by HTML, CSS, Bootstrap"
    },
-   
-
 ]
 
 
