@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div>
              
-             <section className='mx-5 lg:mx-24 xl:mx-24 md:mx-16 my-16 flex items-center'>
+             <section className='mx-5 lg:mx-24 xl:mx-24 md:mx-16 my-16 flex items-center' id='about'>
 
                   <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2'>
 

@@ -20,7 +20,7 @@ const Navbar = () => {
     return (
         <div className='fixed z-50 w-full'>
             
-        <header className='navBar-background'>
+        <header className='navBar-background' >
 
         {/* <Image src={navLogo} alt="" className='navLogo-set'/> */}
 
@@ -29,8 +29,8 @@ const Navbar = () => {
          <nav ref={navRef} onClick={showNavbar} className='nav-link'>
 
              <Link className='navLink-hover' href="/">Home</Link>
-             <Link href="">About</Link>
-             <Link href="">Expertise</Link>
+             <a href="#about">About</a>
+             <a href="#expert">Expertise</a>
              <Link href="">Project</Link>
              <Link href="">Contact</Link>
 
