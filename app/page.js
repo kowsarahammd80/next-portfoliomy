@@ -9,7 +9,7 @@ import Work from "@/components/Work/Work";
 
 const Home = () => {
   return (
-    <main className="bg-white">
+    <main className="">
         <HeroSection/>
         <About/>
         <Expertise/>
