@@ -8,6 +8,18 @@
    cursor: pointer;
    transition: 0.3s ease-in-out;
 }
+.skillsName{
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    opacity: 0%;
+    transition: 0.3s ease-in-out;
+}
+.skillImgDiv:hover .skillsName{
+    opacity: 100%;
+}
 .skillImg:hover{
     transform: scale(1.1);
 }
+
+

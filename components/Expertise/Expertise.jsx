@@ -60,9 +60,9 @@ const Expertise = async () => {
                   <div className='grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 gap-4'>
                        
                        {
-                         expertice.map(expert =>  <div key={expert.id} className='expertiseCard shadow-sm border p-4 rounded rotetedCard'>
-                         <div className='flex justify-center'>
-                            <span className='text-5xl'>{expert.icon}</span>
+                         expertice.map(expert =>  <div key={expert.id} className='expertiseCard shadow-sm p-4 rounded rotetedCard'>
+                         <div className='flex justify-center icon'>
+                            <p className='text-5xl '>{expert.icon}</p>
                          </div>
                          <div className='text-center'>
                             <h1 className='text-2xl font-medium my-4'>{expert.name}</h1>

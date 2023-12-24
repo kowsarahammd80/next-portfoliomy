@@ -1,10 +1,11 @@
 .expertiseCard{
     cursor: pointer;
+    border: 2px solid rgb(145, 140, 140);
     transition: 0.3s ease-in-out;
 }
 .expertiseCard:hover{
     box-shadow: 7px 7px 10px rgb(111, 110, 110);
     background: linear-gradient( 150deg, rgb(109, 109, 109), rgb(126, 119, 119), rgb(194, 194, 194) );
-    opacity: 80%;
+    background-position: 50%;
     transition: 0.3s ease-in-out;
 }

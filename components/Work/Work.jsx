@@ -63,7 +63,7 @@ const Work = () => {
                      <div className='p-5'>
                        <h1 className='font-semibold text-lg'>Project Name: {project.name}</h1>
                        <p className=''>
-                          Deram larnar project is onle course base project. This mack by React, Bootstrap, Node Js, Firebase, Monggodb 
+                          Deram larnar project is onle course base project. 
                        </p>
                        
                        <button class="sh_btn">Source Code</button>
