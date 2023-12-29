@@ -49,7 +49,7 @@ const Work = () => {
         <div className=''>
 
            
-            <section className='mx-5 lg:mx-24 md:mx-24 xl:mx-24'>
+            <section className='mx-5 lg:mx-24 md:mx-16 xl:mx-24'>
 
                <div>
                    <h1 className='text-3xl font-semibold'>My Work</h1>

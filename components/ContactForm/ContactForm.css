@@ -32,12 +32,12 @@
     height: 70px;
     cursor: pointer;
 }
-.contactDiv p{
-    font-size: 20px;
+.contactText{
+    /* font-size: 20px; */
     font-weight: 500;
     transition: 0.5s ease-in-out;
 }
-.contactDiv:hover p{
+.contactDiv:hover span{
     /* box-shadow: 5px 5px 10px rgb(141, 140, 140); */
     text-shadow: 3px 3px 8px rgb(162, 160, 160);
     margin-top: -5px;
@@ -54,10 +54,24 @@
 .contactDiv:hover{
     box-shadow: 2px 2px 10px rgb(207, 206, 206);
 }
+.contactButton{
+    background: linear-gradient(120deg, rgb(113, 115, 116), rgb(137, 139, 141),rgb(159, 161, 162));
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
 
 @media only screen and (max-width: 1024px){
     .contactIcon{
         font-size: 26px;
+        transition: 0.5s ease-in-out;
+    }
+    .contactText{
+        font-size: 17px;
+        font-weight: 600;
         transition: 0.5s ease-in-out;
     } 
 }

@@ -51,7 +51,7 @@ const Expertise = async () => {
     return (
         <div className=' '>
 
-            <section className='mx-5 xl:mx-28 md:mx-16 lg:mx-28 my-20 '>
+            <section className='mx-5 xl:mx-28 md:mx-16 lg:mx-28 my-10 lg:my-20 '>
 
                   <div className='text-2xl lg:text-3xl xl:text-3xl md:text-2xl ' id='expert'>
                       <h1 className='font-semibold my-5'>My Expertise</h1>

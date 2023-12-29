@@ -15,43 +15,43 @@ const Skills = () => {
 
                     <div className='skillImgDiv'>
                          <img src="https://www.shareicon.net/download/2016/07/09/118544_development.ico" className='skillImg' alt="" />
-                         <p className='skillsName'>name</p>
+                         <p className='skillsName'>HTML</p>
                     </div>
                     <div className='skillImgDiv'>
-                         <img src="https://cdn.iconscout.com/icon/free/png-256/free-css-107-457937.png" className='skillImg' alt="" />
-                         <p className='skillsName'>name</p>
+                         <img src="https://cdn.iconscout.com/icon/free/png-256/free-css-107-457937.png" className='skillImg grayIcons' alt="" />
+                         <p className='skillsName '>CSS</p>
                     </div>
                     <div className='skillImgDiv'>
                          <img src="https://www.svgrepo.com/download/372804/bootstrap.svg" className='skillImg' alt="" />
-                         <p className='skillsName'>name</p>
+                         <p className='skillsName'>Bootstrap</p>
                     </div>
                     <div className='skillImgDiv'>
                          <img src="https://www.svgrepo.com/show/368997/tailwind.svg" className='skillImg' alt="" />
-                         <p className='skillsName'>name</p>
+                         <p className='skillsName'>Taillwind Css</p>
                     </div>
                     <div className='skillImgDiv'>
                          <img src="https://www.iconbolt.com/iconsets/ionicons-regular/logo-nodejs.svg" className='skillImg' alt="" />
-                         <p className='skillsName'>name</p>
+                         <p className='skillsName'>JavaScript</p>
                     </div>
                     <div className='skillImgDiv'>
                          <img src="https://www.svgrepo.com/show/358128/react.svg" className='skillImg' alt="" />
-                         <p className='skillsName'>name</p>
+                         <p className='skillsName'>React JS</p>
                     </div>
                     <div className='skillImgDiv'>
                          <img src="https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Next.js-900x0.png" className='skillImg' alt="" />
-                         <p className='skillsName'>name</p>
+                         <p className='skillsName'>Next JS</p>
                     </div>
                     <div className='skillImgDiv'>
                          <img src="https://www.svgrepo.com/show/327361/logo-firebase.svg" className='skillImg' alt="" />
-                         <p className='skillsName'>name</p>
+                         <p className='skillsName'>Firebase</p>
                     </div>
                     <div className='skillImgDiv'>
                          <img src="https://www.svgrepo.com/show/342044/mongodb.svg" className='skillImg' alt="" />
-                         <p className='skillsName'>name</p>
+                         <p className='skillsName'>Mongodb</p>
                     </div>
                     <div className='skillImgDiv'>
                          <img src="https://www.svgrepo.com/download/314392/node.svg" className='skillImg' alt="" />
-                         <p className='skillsName'>name</p>
+                         <p className='skillsName'>Node JS</p>
                     </div>
                      
                   </div>

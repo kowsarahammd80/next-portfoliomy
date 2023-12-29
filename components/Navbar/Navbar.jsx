@@ -18,13 +18,13 @@ const Navbar = () => {
 	};
 
     return (
-        <div className='fixed z-50 w-full'>
+        <div className='fixed z-50 w-full shadow-xl'>
             
         <header className='navBar-background' >
 
         {/* <Image src={navLogo} alt="" className='navLogo-set'/> */}
 
-        <h1 className='text-2xl font-semibold'><span className='text-orange-400'>P</span>ortfolio</h1>
+        <h1 className='text-2xl font-semibold ptext'><span className='ptext'>P</span>ortfolio</h1>
 
          <nav ref={navRef} onClick={showNavbar} className='nav-link'>
 
@@ -34,13 +34,17 @@ const Navbar = () => {
              <Link href="">Project</Link>
              <Link href="">Contact</Link>
 
+
              <button
                  className="nav-btn nav-close-btn">
                  <i class="fa-regular fa-circle-xmark"></i>
              </button>
 
+            
          </nav>
-      
+
+         <button className='resumeButton'>Resume</button>
+
          <button
              className="nav-btn"
              onClick={showNavbar}>
