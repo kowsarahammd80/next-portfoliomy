@@ -24,9 +24,9 @@
 .iconShdow{
     text-shadow: 3px 3px 8px whitesmoke;
 }
-.heroBg{
+/* .heroBg{
     background: linear-gradient( 150deg, rgb(218, 217, 217), rgb(197, 197, 197), rgb(98, 98, 98) );
-}
+} */
 .text-design{
     text-shadow: 20px;
 }

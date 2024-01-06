@@ -26,7 +26,7 @@ const About = () => {
 
                                 <p className='my-5'>I love to Develop interesting and unique design. I also like to challenge myself to learn new things And I crave for new experiences And Challenges.</p>
 
-                                <button className='downloadResume'> <span>Download Resume</span> </button>
+                                <a href='https://drive.google.com/uc?export=download&id=1x0ILZwuvDbEL5RCKRu-uTzDSWN7SjnoD' className='downloadResume'> <span>Download Resume</span> </a>
 
                            </div>
 

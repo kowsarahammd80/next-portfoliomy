@@ -18,7 +18,7 @@ const Navbar = () => {
 	};
 
     return (
-        <div className='fixed z-50 w-full shadow-xl'>
+        <div className='fixed z-50 w-full'>
             
         <header className='navBar-background' >
 
@@ -29,21 +29,19 @@ const Navbar = () => {
          <nav ref={navRef} onClick={showNavbar} className='nav-link'>
 
              <Link className='navLink-hover' href="/">Home</Link>
-             <a href="#about">About</a>
-             <a href="#expert">Expertise</a>
+             <Link href="#about">About</Link>
+             <Link href="#expert">Expertise</Link>
              <Link href="">Project</Link>
              <Link href="">Contact</Link>
-
 
              <button
                  className="nav-btn nav-close-btn">
                  <i class="fa-regular fa-circle-xmark"></i>
              </button>
-
-            
+       
          </nav>
 
-         <button className='resumeButton'>Resume</button>
+         <a href='https://drive.google.com/uc?export=download&id=1x0ILZwuvDbEL5RCKRu-uTzDSWN7SjnoD' className='resumeButton'>Resume</a>
 
          <button
              className="nav-btn"
