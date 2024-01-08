@@ -18,7 +18,7 @@ const Skills = () => {
                          <p className='skillsName'>HTML</p>
                     </div>
                     <div className='skillImgDiv'>
-                         <img src="https://cdn.iconscout.com/icon/free/png-256/free-css-107-457937.png" className='skillImg ' alt="" />
+                         <img src="https://cdn.iconscout.com/icon/free/png-256/free-css-107-457937.png" className='skillImg grayIcons' alt="" />
                          <p className='skillsName '>CSS</p>
                     </div>
                     <div className='skillImgDiv'>
