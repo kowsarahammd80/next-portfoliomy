@@ -44,7 +44,7 @@ const Skills = () => {
                          <p className='skillsName'>React JS</p>
                     </div>
                     <div className='skillImgDiv'>
-                         <img src="https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Next.js-900x0.png" className='skillImg' alt="" />
+                         <img src="https://i.ibb.co/j4yq3LG/Next-js-900x0.png" className='skillImg' alt="" />
                          <p className='skillsName'>Next JS</p>
                     </div>
                     <div className='skillImgDiv'>
