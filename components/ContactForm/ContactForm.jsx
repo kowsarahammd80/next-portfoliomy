@@ -10,10 +10,10 @@ const ContactForm = () => {
             <section className='my-10 lg:my-16 mx-5 lg:mx-28 xl:mx-28 md:mx-16'>
 
                 <div className='text-3xl font-semibold'>
-                   <h1>Get In Touch</h1>
+                   <h1 className='text-white'>Get In Touch</h1>
                 </div>
 
-                <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:grid-cols-2 my-5 lg:my-10 gap-4'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:grid-cols-1 my-5 lg:my-10 gap-4'>
                      
                      <form action="" className='formdiv'>
                          <div className="inputDiv my-3">

@@ -8,8 +8,8 @@ const Footer = () => {
             
             <section className='footerBg'>
 
-                <div className='p-5 text-center'>
-                    <h1>Copyright © 2023 - All right reserved by MD Kowsar Ahamed</h1>
+                <div className='p-10 text-center'>
+                    <h1 className='footerText'>Copyright <span className='footerTextColor'>©</span> 2023 - All right reserved by <span className='footerTextColor'>MD Kowsar Ahamed</span></h1>
                 </div>
                 
             </section>

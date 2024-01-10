@@ -8,15 +8,15 @@
 .iconColor{
     fill: aqua;
 }
-#html{
-    /* fill: blue; */
-    filter: invert(31%) sepia(70%) saturate(1211%) hue-rotate(90deg) brightness(100%) contrast(100%);
-}
+/* #html{
+    filter: invert(19%) sepia(83%) saturate(7063%) hue-rotate(337deg) brightness(104%) contrast(109%);
+} */
 .skillImg{
    width: 100%;
    height: 100%;
    cursor: pointer;
-   transition: 0.3s ease-in-out;
+   filter: invert(98%) sepia(10%) saturate(69%) hue-rotate(53deg) brightness(75%) contrast(100%);
+   transition: 0.4s ease-in-out;
 }
 .skillsName{
     text-align: center;
@@ -26,9 +26,11 @@
     transition: 0.3s ease-in-out;
 }
 .skillImgDiv:hover .skillsName{
+    color: white;
     opacity: 100%;
 }
 .skillImg:hover{
+    filter: invert(19%) sepia(83%) saturate(7063%) hue-rotate(337deg) brightness(104%) contrast(109%);
     transform: scale(1.1);
 }
 

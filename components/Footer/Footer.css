@@ -1,3 +1,15 @@
 .footerBg{
-    background: linear-gradient( 150deg, rgb(218, 217, 217), rgb(197, 197, 197), rgb(98, 98, 98) );
+    /* background:; */
+    background-color: #17191c;
+    box-shadow: -2px -2px 10px rgba(255, 255, 255, 0.721);
+    border-top: 5px solid black;
+}
+.footerText{
+    color: #C4CFD3;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.967);
+    font-weight: 600;
+    font-size: 18px;
+}
+.footerTextColor{
+    color: #FF014F;
 }
