@@ -1,20 +1,26 @@
 import React from 'react';
 import './Skills.css';
 
+
+
+
 const Skills = () => {
+
+
     return (
+     
         <div>
 
             <section className='mx-5 xl:mx-28 lg:mx-28 md:mx-16'>
 
                   <div className='text-3xl font-semibold my-5'>
-                    <h1 className=''>Skills</h1>
+                    <h1 className='text-white'>My Skills</h1>
                   </div>
 
                   <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mx-5 lg:mx-28 xl:mx-28 my-10 gap-10'>
 
                     <div className='skillImgDiv'>
-                         <img src="https://www.shareicon.net/download/2016/07/09/118544_development.ico" className='skillImg' alt="" />
+                         <img src="https://www.shareicon.net/download/2016/07/09/118544_development.ico" className='skillImg iconColor' alt="" id='html' />
                          <p className='skillsName'>HTML</p>
                     </div>
                     <div className='skillImgDiv'>
@@ -22,7 +28,7 @@ const Skills = () => {
                          <p className='skillsName '>CSS</p>
                     </div>
                     <div className='skillImgDiv'>
-                         <img src="https://www.svgrepo.com/download/372804/bootstrap.svg" className='skillImg' alt="" />
+                         <img src="https://www.svgrepo.com/download/372804/bootstrap.svg" className='skillImg iconColor' alt="" />
                          <p className='skillsName'>Bootstrap</p>
                     </div>
                     <div className='skillImgDiv'>
@@ -55,6 +61,7 @@ const Skills = () => {
                     </div>
                      
                   </div>
+
             </section>
 
         </div>

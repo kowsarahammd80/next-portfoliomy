@@ -2,14 +2,15 @@
     width: 100%;
     height: 65vh;
     background-color: #1e2124;
-    box-shadow:  -4px -4px 10px rgba(199, 198, 198, 0.282), 
-	4px 4px 10px rgb(44, 44, 44), 
-	 inset -4px -4px 8px rgba(204, 204, 204, 0.271),
-	 inset 15px 15px 15px rgba(35, 33, 33, 0.101); 
-     border:5px solid #131517;  
+    box-shadow:  -8px -8px 15px rgba(74, 74, 74, 0.693), 
+	10px 10px 15px rgba(80, 79, 79, 0.326), 
+	 inset -8px -8px 12px rgba(204, 204, 204, 0.271),
+	 inset 15px 15px 20px rgba(35, 33, 33, 0.101); 
+     border:5px solid #1d1f22;  
 }
 .salamText{
     color: #C4CFD3;
+    font-style: italic;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.847);
 }
 .selfTExt{
@@ -34,23 +35,23 @@
     background-color: #212428;
     box-shadow:  -2px -2px 5px rgba(199, 198, 198, 0.282), 
 	2px 2px 5px rgb(44, 44, 44), 
-	 inset -2px -2px 5px rgba(204, 204, 204, 0.271),
-	 inset 2px 2px 5px rgba(35, 33, 33, 0.101);
+	inset -2px -2px 5px rgba(204, 204, 204, 0.271),
+	inset 2px 2px 5px rgba(35, 33, 33, 0.101);
     transition: 0.3s ease-in-out;
 }
 .heroContact-button:hover{
-    /* margin-top: -100px; */
     color: #ff014da2;
-    box-shadow: 5px 5px 15px rgba(199, 198, 198, 0.362);
-    
+    box-shadow: 5px 5px 15px rgba(199, 198, 198, 0.362);   
 }
 .iconShdow{
-    /* text-shadow: 3px 3px 8px whitesmoke; */
     color: white;
+    text-shadow: 15px 15px 25px black;
 }
 .heroBg{
-    /* background: linear-gradient( 150deg, rgb(218, 217, 217), rgb(197, 197, 197), rgb(98, 98, 98) ); */
-    background-color: #212428;
+  background-color: #212428;
+}
+.heroBottoomBordar{
+  border-bottom:3px solid #020202;
 }
 .text-design{
     text-shadow: 20px;
@@ -90,7 +91,7 @@
         box-shadow:  -2px -2px 8px rgba(199, 198, 198, 0.282), 
                      2px 2px 8px rgb(44, 44, 44), 
                      inset -2px -2px 8px rgba(204, 204, 204, 0.271),
-                     inset 2px 2px 8px rgba(35, 33, 33, 0.101);
+                     inset 2px 2px 8px rgba(35, 33, 33, 0.47);
         border:3px solid rgb(26, 28, 31);
         transition: 0.5s ease-in-out;
     }   

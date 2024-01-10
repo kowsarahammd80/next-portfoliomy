@@ -1,25 +1,29 @@
 .aboutIamgeDiv{
     width: 100%;
     height: 65vh;
-    background-color: #d6dadc;
-    border: 4px solid #e6eaeb;
-    box-shadow: -5px -5px 15px rgba(255,255,255,1),
-                 4px 4px 8px rgba(0,0,0,0.1),
-                 inset -5px -5px 15px rgba(255,255,255,1),
-                 inset 9px 9px 15px rgba(0,0,0,0.1);
+    background-color: #1e2124;
+    box-shadow:  -4px -4px 12px rgba(199, 198, 198, 0.282), 
+	4px 4px 10px rgb(44, 44, 44), 
+	 inset -4px -4px 8px rgba(204, 204, 204, 0.271),
+	 inset 15px 15px 15px rgba(35, 33, 33, 0.101); 
+     border:5px solid #131517;    
+}
+.peraText{
+    color: #B3BDCA;
 }
 .downloadResume{
-    color: black;
+    color: #F9004D;
     font-weight: 600;
-    padding: 6px 15px;
-    text-shadow: 1px 1px 3px gray;
+    /* text-shadow: 1px 1px 3px gray; */
     border-radius: 2px;
-    background-color: #d6dadc;
-    border: 4px solid #e7ebec;
-    box-shadow: -5px -5px 10px rgba(255,255,255,1),
-                 4px 4px 8px rgba(0,0,0,0.1),
-                 inset -6px -6px 15px rgba(255,255,255,1),
-                 inset 15px 15px 15px rgba(0,0,0,0.1);
+    background: #131517;
+    padding: 3px 10px;
+    box-shadow:  -2px -2px 8px rgba(199, 198, 198, 0.282), 
+	             2px 2px 8px rgb(44, 44, 44), 
+	             inset -2px -2px 8px rgba(204, 204, 204, 0.271),
+	             inset 2px 2px 8px rgba(35, 33, 33, 0.101);
+    border:3px solid rgb(26, 28, 31);
+    padding: 10px 15px;
     text-decoration: none;
 }
 .downloadResume:hover{

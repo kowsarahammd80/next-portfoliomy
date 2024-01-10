@@ -44,29 +44,27 @@ const expertice= [
 
 
 
-const Expertise = async () => {
-
-   
+const Expertise = async () => {  
 
     return (
         <div className=' '>
 
-            <section className='mx-5 xl:mx-28 md:mx-16 lg:mx-28 my-10 lg:my-20 '>
+            <section className='mx-5 xl:mx-28 md:mx-16 lg:mx-28 my-10 lg:my-20'>
 
-                  <div className='text-2xl lg:text-3xl xl:text-3xl md:text-2xl ' id='expert'>
-                      <h1 className='font-semibold my-5'>My Expertise</h1>
+                  <div className='text-2xl lg:text-3xl xl:text-3xl md:text-2xl' id='expert'>
+                      <h1 className='font-semibold my-5 text-white'>My Expertise</h1>
                   </div>
 
                   <div className='grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 gap-4'>
                        
                        {
-                         expertice.map(expert =>  <div key={expert.id} className='expertiseCard shadow-sm p-4 rounded rotetedCard'>
-                         <div className='flex justify-center icon'>
-                            <p className='text-5xl '>{expert.icon}</p>
+                         expertice.map(expert =>  <div key={expert.id} className='expertiseCard shadow-sm py-5 px-4 rounded rotetedCard'>
+                         <div className='flex justify-center  experticDiv'>
+                            <p className='text-5xl icon'>{expert.icon}</p>
                          </div>
                          <div className='text-center'>
-                            <h1 className='text-2xl font-medium my-4'>{expert.name}</h1>
-                            <p className=''>{expert.discreiption}</p>
+                            <h1 className='text-2xl font-medium my-4 expertName'>{expert.name}</h1>
+                            <p className='expertName'>{expert.discreiption}</p>
                          </div>
                      </div>) 
                        }

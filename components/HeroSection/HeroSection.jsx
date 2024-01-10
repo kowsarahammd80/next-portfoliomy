@@ -12,9 +12,9 @@ const HeroSection = () => {
 
 
     return (
-        <div className='pt-10 lg:pt-20 xl:pt-20 md:pt-10 heroBg'>
+        <div className='pt-12 lg:pt-20 xl:pt-20 md:pt-10 heroBg '>
 
-            <section className='mx-5 lg:mx-24 xl:mx-24 md:mx-16'>
+            <section className='mx-5 lg:mx-24 xl:mx-24 md:mx-16 heroBottoomBordar'>
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 h-screen'> 
 

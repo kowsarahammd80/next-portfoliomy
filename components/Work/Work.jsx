@@ -47,12 +47,11 @@ const Work = () => {
     return (
 
         <div className=''>
-
            
             <section className='mx-5 lg:mx-24 md:mx-16 xl:mx-24'>
 
                <div>
-                   <h1 className='text-3xl font-semibold'>My Work</h1>
+                   <h1 className='text-3xl font-semibold text-white'>My Work</h1>
                </div>
 
                <div className=' grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 gap-5 my-10'>
@@ -60,13 +59,12 @@ const Work = () => {
                   {
                      projects.map(project =>  <div key={project.id} class="card">
    
-                     <div className='p-5'>
-                       <h1 className='font-semibold text-lg'>Project Name: {project.name}</h1>
-                       <p className=''>
+                     <div className='p-2 lg:p-5 xl:p-5 md:p-4'>
+                       <h1 className='font-semibold text-lg icon'> <span className='expertName font-normal'>Project Name:</span> {project.name}</h1>
+                       <p className='text-white my-1'>
                           Deram larnar project is onle course base project. 
                        </p>
-                       
-                       <button class="sh_btn">Source Code</button>
+                       <button class="sh_btn me-4 my-4">Source Code</button>
                        <button className='live-button'>Live Preview</button>
                     </div>
               
