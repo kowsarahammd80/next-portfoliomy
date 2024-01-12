@@ -1,24 +1,40 @@
-"use client"
+'use client'
 
 import React from 'react';
 import './HeroSection.css';
 import Link from 'next/link';
 import { Typewriter } from 'react-simple-typewriter';
+import AOS from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 
 
 
 
 const HeroSection = () => {
 
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, []) 
 
     return (
         <div className='pt-12 lg:pt-20 xl:pt-20 md:pt-10 heroBg '>
 
-            <section className='mx-5 lg:mx-24 xl:mx-24 md:mx-16 heroBottoomBordar'>
+            <section className='mx-5 lg:mx-24 xl:mx-24 md:mx-16 heroBottoomBordar' 
+            >
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 h-screen'> 
 
-                     <div className='flex justify-center items-center py-5'>
+                     <div className='flex justify-center items-center py-5'  
+                      
+                      data-aos="fade-right"
+                      data-aos-anchor-placement="center-bottom"
+                      data-aos-offset="100"
+                      data-aos-duration="2000"
+                     >
 
                         <div className='text-design'>
 
@@ -55,7 +71,10 @@ const HeroSection = () => {
 
                      <div className='flex justify-center items-start lg:items-center mx-5 lg:mx-28 xl:mx-28 md:mx-16'>
 
-                        <div className='iamgeDiv'>
+                        <div className='iamgeDiv' data-aos="fade-left"
+                      data-aos-anchor-placement="center-bottom"
+                      data-aos-offset="100"
+                      data-aos-duration="800">
 
                            <img src="https://png.pngtree.com/png-vector/20231116/ourmid/pngtree-a-smiling-stylish-man-posing-with-hands-png-image_10564197.png" className='heroImg' alt="" />
 

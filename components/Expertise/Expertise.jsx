@@ -1,5 +1,10 @@
+'use client'
+
 import React from 'react';
 import './Expertise.css'
+import AOS from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 // import getExparticeAll from '@/utils/getExparticeAll';
 
 
@@ -44,7 +49,14 @@ const expertice= [
 
 
 
-const Expertise = async () => {  
+const Expertise = async () => { 
+
+    useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, []) 
 
     return (
         <div className=' '>
@@ -52,13 +64,25 @@ const Expertise = async () => {
             <section className='mx-5 xl:mx-28 md:mx-16 lg:mx-28 my-10 lg:my-20'>
 
                   <div className='text-2xl lg:text-3xl xl:text-3xl md:text-2xl' id='expert'>
-                      <h1 className='font-semibold my-5 text-white'>My Expertise</h1>
+                      <h1 className='font-semibold my-5 text-white' 
+                       data-aos="fade-up"
+                       data-aos-anchor-placement="top-bottom"
+                                           data-aos-offset="100"
+                                           data-aos-duration="800"
+                      >My Expertise</h1>
                   </div>
 
                   <div className='grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 gap-4'>
                        
                        {
-                         expertice.map(expert =>  <div key={expert.id} className='expertiseCard shadow-sm py-5 px-4 rounded rotetedCard'>
+                         expertice.map(expert =>  <div key={expert.id} className='expertiseCard shadow-sm py-5 px-4 rounded rotetedCard' 
+
+                         data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"
+                         data-aos-offset="100"
+                         data-aos-duration="1000"
+
+                         >
                          <div className='flex justify-center  experticDiv'>
                             <p className='text-5xl icon'>{expert.icon}</p>
                          </div>
@@ -126,6 +150,8 @@ const Expertise = async () => {
                   </div>
 
             </section>
+
+          
 
         </div>
     );

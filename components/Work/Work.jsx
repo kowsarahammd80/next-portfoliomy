@@ -1,5 +1,10 @@
+"use client"
 import React from 'react';
 import './Work.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+
 
 
 const projects = [
@@ -43,7 +48,12 @@ const projects = [
 
 
 const Work = () => {
-
+   useEffect(() => {
+      AOS.init({
+           duration: 800,
+           once: false,
+         })
+   }, []) 
     return (
 
         <div className=''>
@@ -51,13 +61,23 @@ const Work = () => {
             <section className='mx-5 lg:mx-24 md:mx-16 xl:mx-24'>
 
                <div>
-                   <h1 className='text-3xl font-semibold text-white'>My Work</h1>
+                   <h1 className='text-3xl font-semibold text-white' 
+                     data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom"
+                     data-aos-offset="100"
+                     data-aos-duration="1000"
+                   >My Work</h1>
                </div>
 
                <div className=' grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 gap-5 my-10'>
 
                   {
-                     projects.map(project =>  <div key={project.id} class="card">
+                     projects.map(project =>  <div key={project.id} class="card" 
+                     data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom"
+                     data-aos-offset="100"
+                     data-aos-duration="1000"
+                     >
    
                      <div className='p-2 lg:p-5 xl:p-5 md:p-4'>
                        <h1 className='font-semibold text-lg icon'> <span className='expertName font-normal'>Project Name:</span> {project.name}</h1>
@@ -83,10 +103,7 @@ const Work = () => {
               
                        </div>
                           </div>)
-                  }
-
-
-    
+                  } 
             
             </div>
             </section>

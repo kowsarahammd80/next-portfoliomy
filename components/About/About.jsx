@@ -1,7 +1,20 @@
+'use client'
+
 import React from "react";
 import "./About.css";
+import AOS from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+
+
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, []) 
   return (
     <div className="">
       <section
@@ -10,7 +23,12 @@ const About = () => {
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
           <div className="hidden lg:block xl:block justify-center items-center mx-5 lg:mx-28 xl:mx-28 md:mx-10">
-            <div className="aboutIamgeDiv">
+            <div className="aboutIamgeDiv" 
+              data-aos="fade-right"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-offset="100"
+              data-aos-duration="2000"
+            >
               <img
                 src="https://png.pngtree.com/png-vector/20231116/ourmid/pngtree-a-smiling-stylish-man-posing-with-hands-png-image_10564197.png"
                 className="heroImg"
@@ -19,9 +37,17 @@ const About = () => {
             </div>
           </div>
 
-          <div className="flex  items-center">
-            <div>
-              <div className="">
+
+          
+            
+            <div className="flex  items-center">
+            <div  data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-offset="100"
+              data-aos-duration="2000">
+              <div className=""
+               
+               >
                 <h1 className="text-2xl text-white lg:text-3xl xl:text-3xl font-semibold mb-5 ">
                   About Me
                 </h1>
@@ -36,16 +62,23 @@ const About = () => {
                   to challenge myself to learn new things And I crave for new
                   experiences And Challenges.
                 </p>
-              </div>
-              <a
+                <a
                   href="https://drive.google.com/uc?export=download&id=1x0ILZwuvDbEL5RCKRu-uTzDSWN7SjnoD"
                   className="downloadResume"
                 >
                   
                   <span>Download Resume</span>
                 </a>
+              </div>
+             
             </div>
           </div>
+            
+         
+
+          
+
+
         </div>
       </section>
     </div>
