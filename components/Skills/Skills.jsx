@@ -43,7 +43,7 @@ const Skills = () => {
                          <img src="https://www.shareicon.net/download/2016/07/09/118544_development.ico" className='skillImg iconColor' alt="" id='html' />
                          <p className='skillsName'>HTML</p>
                     </div>
-                    <div className='skillImgDiv' 
+                    <div className='skillImgDiv nextJsImgDiv' 
                      data-aos="fade-up"
                      data-aos-anchor-placement="top-bottom"
                      data-aos-offset="100"
@@ -94,7 +94,7 @@ const Skills = () => {
                      data-aos-offset="100"
                      data-aos-duration="1000"
                     >
-                         <img src="https://static-00.iconduck.com/assets.00/brand-nextjs-icon-256x256-zm2coebd.png" className='skillImg ' alt="" />
+                         <img src="https://static-00.iconduck.com/assets.00/brand-nextjs-icon-256x256-zm2coebd.png" className='skillImg nextjsImg' alt="" />
                          <p className='skillsName'>Next JS</p>
                     </div>
                     <div className='skillImgDiv' 

@@ -49,7 +49,7 @@ const expertice= [
 
 
 
-const Expertise = async () => { 
+const Expertise = () => { 
 
     useEffect(() => {
     AOS.init({

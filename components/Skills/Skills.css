@@ -31,7 +31,9 @@
     transform: scale(1.1);
 }
 
-/* .nextJsImgDiv{
-    width: 50%;
-} */
+.nextJsImgDiv{
+    width: 80%;
+    margin: auto;
+    height: 80%;
+}
 
