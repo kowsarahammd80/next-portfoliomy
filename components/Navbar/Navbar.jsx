@@ -24,7 +24,7 @@ const Navbar = () => {
 
         {/* <Image src={navLogo} alt="" className='navLogo-set'/> */}
 
-        <h1 className='text-2xl font-semibold navTeaxt'><span className='ptext'>P</span>ortfolio</h1>
+        <Link to='heroSection' smooth={true} className='text-2xl cursor-pointer font-semibold navTeaxt'><span className='ptext'>P</span>ortfolio</Link>
 
          <nav ref={navRef} onClick={showNavbar} className='nav-link'>
 
