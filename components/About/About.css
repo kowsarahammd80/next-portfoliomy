@@ -6,7 +6,8 @@
 	4px 4px 10px rgb(44, 44, 44), 
 	 inset -4px -4px 8px rgba(204, 204, 204, 0.271),
 	 inset 15px 15px 15px rgba(35, 33, 33, 0.101); 
-     border:5px solid #131517;    
+     border:5px solid #131517;
+     border-radius: 220px 220px 0px 0px;    
 }
 .peraText{
     color: #B3BDCA;

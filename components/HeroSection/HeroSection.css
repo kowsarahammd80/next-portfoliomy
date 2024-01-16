@@ -6,7 +6,8 @@
 	10px 10px 15px rgba(80, 79, 79, 0.326), 
 	 inset -8px -8px 12px rgba(204, 204, 204, 0.271),
 	 inset 15px 15px 20px rgba(35, 33, 33, 0.101); 
-     border:6px solid #1d1f22;  
+     border:6px solid #1d1f22;
+     border-radius: 220px 220px 0px 0px;  
 }
 .salamText{
     color: #C4CFD3;
@@ -26,6 +27,7 @@
     cursor: pointer;
 }
 .heroContact-button{
+    cursor: pointer;
     padding: 10px 20px;
     border:3px solid rgb(26, 28, 31);
     border-radius: 3px;

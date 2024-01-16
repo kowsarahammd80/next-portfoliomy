@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './HeroSection.css';
-import Link from 'next/link';
+import {Link} from 'react-scroll';
 import { Typewriter } from 'react-simple-typewriter';
 import AOS from 'aos';
 import { useEffect } from 'react';
@@ -51,8 +51,9 @@ const HeroSection = () => {
             /></p>
 
                           <div className='my-8 xl:my10 lg:my-10 md:my-10'>
-                            <Link href="#expert" className='me-5 heroContact-button'>My Work</Link>
-                            <Link href="" className='heroContact-button'>Hire Me</Link>
+                            <Link  to="work" 
+                            smooth={true} offset={-100} duration={500} className='me-5 heroContact-button'>My Work</Link>
+                            <Link to="contact" className='heroContact-button'>Hire Me</Link>
                           </div>
 
                           <div className='text-4xl lg:text-5xl xl:text-5xl mt-6 cursor-pointer'>
