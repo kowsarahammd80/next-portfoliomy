@@ -1,7 +1,7 @@
 "use client"
 
 import Image from 'next/image';
-import Link from 'next/link';
+import {Link} from 'react-scroll';
 import React, { useRef } from 'react';
 import './Navbar.css'
 
@@ -28,11 +28,12 @@ const Navbar = () => {
 
          <nav ref={navRef} onClick={showNavbar} className='nav-link'>
 
-             <Link className='navLink-hover' href="/">Home</Link>
-             <Link href="#about">About</Link>
-             <Link href="#expert">Expertise</Link>
-             <Link href="">Project</Link>
-             <Link href="">Contact</Link>
+             <Link className='navLink-hover' to="heroSection" smooth={true}>Home</Link>
+             <Link className='navLink-hover' to="about" smooth={true} offset={-120} duration={500}>About</Link>
+             <Link className='navLink-hover' to="expert" smooth={true} offset={-150} duration={500}>Expertise</Link>
+             <Link className='navLink-hover' to="Skill" smooth={true} offset={-150} duration={500}>Skills</Link>
+             <Link className='navLink-hover' to="work" smooth={true} offset={-100} duration={500}>Project</Link>
+             <Link className='navLink-hover' to="contact" smooth={true} offset={-50} duration={500}>Contact</Link>
 
              <div className='resumeButton lg:ms-52 xl:ms-52 ms-0'> 
          <a href='https://drive.google.com/uc?export=download&id=1x0ILZwuvDbEL5RCKRu-uTzDSWN7SjnoD' >Resum<span className='navReasumeText'>e</span></a>

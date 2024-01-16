@@ -49,6 +49,9 @@ header .nav-btn {
 	opacity: 0;
 	font-size: 1.8rem;
 }
+.navLink-hover{
+  cursor: pointer;
+}
 .nav-link{
   background-color: unset;
   font-size: 18px;

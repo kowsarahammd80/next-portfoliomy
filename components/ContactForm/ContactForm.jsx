@@ -47,7 +47,7 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div>
+    <div id="contact">
       <section className="my-10 lg:my-16 mx-5 lg:mx-28 xl:mx-28 md:mx-16">
         <div className="text-3xl font-semibold">
           <h1

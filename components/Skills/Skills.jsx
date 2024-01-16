@@ -21,7 +21,9 @@ const Skills = () => {
      
         <div>
 
-            <section className='mx-5 xl:mx-28 lg:mx-28 md:mx-16'>
+            <section className='mx-5 xl:mx-28 lg:mx-28 md:mx-16'
+             id='Skill'
+            >
 
                   <div className='text-3xl font-semibold my-5'>
                     <h1 className='text-white'

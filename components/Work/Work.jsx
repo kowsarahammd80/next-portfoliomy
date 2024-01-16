@@ -71,7 +71,7 @@ const Work = () => {
    
     return (
 
-        <div className=''>
+        <div className='' id='work'>
            
             <section className='mx-5 lg:mx-24 md:mx-16 xl:mx-24'>
 

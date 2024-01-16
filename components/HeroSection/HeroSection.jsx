@@ -21,7 +21,7 @@ const HeroSection = () => {
  }, []) 
 
     return (
-        <div className='pt-12 lg:pt-20 xl:pt-20 md:pt-10 heroBg '>
+        <div className='pt-12 lg:pt-20 xl:pt-20 md:pt-10 heroBg ' id='heroSection'>
 
             <section className='mx-5 lg:mx-24 xl:mx-24 md:mx-16 heroBottoomBordar' 
             >
