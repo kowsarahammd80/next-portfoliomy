@@ -8,6 +8,7 @@ import './Navbar.css'
 
 
 const Navbar = () => {
+
        
     const navRef = useRef();
      

@@ -32,7 +32,7 @@ const HeroSection = () => {
                       
                       data-aos="fade-right"
                       data-aos-anchor-placement="center-bottom"
-                      data-aos-offset="100"
+                      data-aos-offset="200"
                       data-aos-duration="2000"
                      >
 
