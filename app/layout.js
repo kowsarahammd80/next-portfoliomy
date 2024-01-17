@@ -23,7 +23,7 @@ const RootLayout =({ children }) => {
     setLoading(true)
     setTimeout(()=> {
       setLoading(false)  
-    }, 2800)
+    }, 3000)
    },[])
 
   return (
