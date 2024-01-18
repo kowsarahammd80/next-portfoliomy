@@ -33,7 +33,7 @@ const HeroSection = () => {
                       data-aos="fade-right"
                       data-aos-anchor-placement="center-bottom"
                       data-aos-offset="200"
-                      data-aos-duration="2000"
+                      data-aos-duration="3000"
                      >
 
                         <div className='text-design'>
