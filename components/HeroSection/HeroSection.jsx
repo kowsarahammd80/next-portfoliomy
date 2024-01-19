@@ -77,7 +77,7 @@ const HeroSection = () => {
                       data-aos-offset="100"
                       data-aos-duration="800">
 
-                           <img src="https://png.pngtree.com/png-vector/20231116/ourmid/pngtree-a-smiling-stylish-man-posing-with-hands-png-image_10564197.png" className='heroImg' alt="" />
+                           <img src="https://i.ibb.co/XzvzSFB/Untitled-design-6.png" className='heroImg' alt="" />
 
                         </div>   
                         

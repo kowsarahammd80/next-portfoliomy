@@ -51,6 +51,7 @@
 }
 .heroBg{
   background-color: #212428;
+  filter: grayscale(5%);
 }
 .heroBottoomBordar{
   border-bottom:3px solid #020202;

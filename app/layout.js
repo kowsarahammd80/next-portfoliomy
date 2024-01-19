@@ -1,6 +1,6 @@
 "use client"
 
-import { Inter } from 'next/font/google'
+import { Inter, Roboto } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar/Navbar'
 import Script from 'next/script'
@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react'
 
 
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({ subsets: ['latin'] , weight: ["100","300", "400", "500", "700"], className: "--font-roboto"})
 
 // export const metadata = {
 //   title: 'Kowsar Ahamed',
@@ -52,7 +52,7 @@ const RootLayout =({ children }) => {
             <img src="https://img1.picmix.com/output/stamp/normal/4/0/3/5/1835304_51c50.gif" alt="" />
         </div>
         :
-        <body className={inter.className}>
+        <body className={roboto.className}>
         <Navbar/>
         {children}
         

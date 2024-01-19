@@ -30,7 +30,7 @@ const About = () => {
               data-aos-duration="2000"
             >
               <img
-                src="https://png.pngtree.com/png-vector/20231116/ourmid/pngtree-a-smiling-stylish-man-posing-with-hands-png-image_10564197.png"
+                src="https://i.ibb.co/XzvzSFB/Untitled-design-6.png"
                 className="heroImg"
                 alt=""
               />
