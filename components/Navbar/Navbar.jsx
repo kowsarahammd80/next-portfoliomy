@@ -37,7 +37,7 @@ const Navbar = () => {
              <Link onClick={showNavbar} className='navLink-hover' to="contact" smooth={true} offset={-80} duration={500}>Contact</Link>
 
              <div className='resumeButton lg:ms-52 xl:ms-52 ms-0'> 
-         <a href='https://drive.google.com/uc?export=download&id=1x0ILZwuvDbEL5RCKRu-uTzDSWN7SjnoD' >Resum<span className='navReasumeText'>e</span></a>
+         <a href='https://drive.google.com/uc?export=download&id=1XzegnbXfOrsdEKwZr9YoRGUPIwGOaXBq' >Resum<span className='navReasumeText'>e</span></a>
          </div>
 
              <button

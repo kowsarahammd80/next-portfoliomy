@@ -63,7 +63,7 @@ const About = () => {
                   experiences And Challenges.
                 </p>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1x0ILZwuvDbEL5RCKRu-uTzDSWN7SjnoD"
+                  href="https://drive.google.com/uc?export=download&id=1XzegnbXfOrsdEKwZr9YoRGUPIwGOaXBq"
                   className="downloadResume"
                 >
                   

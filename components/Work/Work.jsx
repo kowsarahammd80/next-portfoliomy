@@ -38,8 +38,8 @@ const projects = [
       "img": "https://i.ibb.co/t33nwz9/golden-gym-2.png",
       "name": "Golden Gym activity website",
       "discription": "Panda e-commerce demo website. This project mack by HTML, CSS, Bootstrap",
-      "liveLink": "https://github.com/kowsarahammd80/golden-gym-react",
-      "code": "https://cheerful-cassata-122fa5.netlify.app/"
+      "liveLink": "https://cheerful-cassata-122fa5.netlify.app/",
+      "code": "https://github.com/kowsarahammd80/golden-gym-react"
    },
    {
       "id": 5,
