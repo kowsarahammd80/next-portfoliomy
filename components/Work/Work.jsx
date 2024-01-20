@@ -100,7 +100,7 @@ const Work = () => {
                           Deram larnar project is onle course base project. 
                        </p>
                        
-                       <a href={project.liveLink}>
+                       <a href={project.code}>
                          <button class="sh_btn me-4 my-4">Source Code</button>
                        </a>
 
