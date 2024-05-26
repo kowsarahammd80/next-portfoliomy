@@ -39,7 +39,7 @@ const HeroSection = () => {
                         <div className='text-design'>
 
                           <p className='text-lg font-semibold text-design salamText'>Assalamu Alaikum</p>
-                          <h1 className='text-xl lg:text-4xl xl:text-4xl md:text-3xl font-semibold my-3 selfTExt'>My Selfe, <span className='nameText'>Md Kowsar Ahamed</span></h1>
+                          <h1 className='text-xl lg:text-4xl xl:text-4xl md:text-3xl font-semibold my-3 selfTExt'>My Self, <span className='nameText'>Md Kowsar Ahamed</span></h1>
                           <p className='text-xl xl:text-3xl lg:text-3xl md:text-2xl selfTExt font-semibold my-2 lg:my-5'><Typewriter
             words={['WEB DEVELOPER', 'FRONT-END DEVELOPER', 'REACT JS DEVELOPER']}
             loop={1000}
