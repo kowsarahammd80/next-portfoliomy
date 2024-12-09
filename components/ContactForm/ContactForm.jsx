@@ -9,9 +9,7 @@ import emailjs from '@emailjs/browser';
 
 
 
-
 const ContactForm = () => {
-
 
   const form = useRef();
 
@@ -29,7 +27,6 @@ const ContactForm = () => {
         (result) => {
           console.log(result.text);
           if (result.text === "OK") {
-
             form.current.reset();
           }
         },
@@ -37,6 +34,7 @@ const ContactForm = () => {
           console.log(error.text);
         }
       );
+      form.current.reset();
   };
 
   useEffect(() => {
@@ -61,10 +59,10 @@ const ContactForm = () => {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:grid-cols-1 my-5 lg:my-10 gap-4">
+        <div className="flex flex-col-reverse lg:flex-row xl:flex-row md:flex-row w-full my-5 lg:my-10 gap-4">
           <form
             action=""
-            className="formdiv"
+            className="formdiv w-full"
             ref={form}
             onSubmit={sendEmail}
             data-aos="fade-up"
@@ -72,11 +70,11 @@ const ContactForm = () => {
             data-aos-offset="100"
             data-aos-duration="1000"
           >
-            <div className="inputDiv my-3">
+            <div className="inputDiv w-full my-3">
               <input
                 type="text"
                 name="from_name"
-                className="inputfild p-2"
+                className="inputfild w-full p-2"
                 placeholder="Full Name"
               />
             </div>
@@ -84,7 +82,7 @@ const ContactForm = () => {
               <input
                 type="email"
                 name="from_email"
-                className="inputfild p-2"
+                className="inputfild w-full p-2"
                 placeholder="Email Address"
               />
             </div>
@@ -92,7 +90,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="from_number"
-                className="inputfild p-2"
+                className="inputfild w-full p-2"
                 placeholder="Number"
               />
             </div>
@@ -109,7 +107,7 @@ const ContactForm = () => {
             </button>
           </form>
 
-          <div className="mx-0 lg:mx-16 flex items-center">
+          <div className="mx-0 lg:mx-16 flex items-center w-full">
             <div className="w-full">
               <div
                 className="border contactDiv p-3 flex items-center w-full my-3"

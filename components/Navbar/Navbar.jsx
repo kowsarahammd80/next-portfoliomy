@@ -47,8 +47,6 @@ const Navbar = () => {
        
          </nav>
 
-        
-
          <button
              className="nav-btn"
              onClick={showNavbar}>
