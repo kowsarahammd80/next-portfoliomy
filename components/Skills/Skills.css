@@ -1,9 +1,10 @@
 .skillImgDiv{
-    width: 100%;
-    height: 20vh;
+    width: 80%;
+    margin: auto;
+    height: 11vh;
 }
 .grayIcons{
-    filter: grayscale(10%);
+    filter: grayscale(50%);
 }
 .iconColor{
     fill: aqua;
@@ -17,23 +18,99 @@
 }
 .skillsName{
     text-align: center;
+    color: rgb(139, 90, 238);
     font-weight: 600;
     font-size: 17px;
     opacity: 0%;
     transition: 0.3s ease-in-out;
 }
 .skillImgDiv:hover .skillsName{
-    color: white;
+    color: rgb(139, 90, 238);
     opacity: 100%;
 }
 .skillImg:hover{
-    filter: invert(19%) sepia(83%) saturate(7063%) hue-rotate(337deg) brightness(104%) contrast(109%);
-    transform: scale(1.1);
+    filter: invert(67%) sepia(34%) saturate(457%) hue-rotate(216deg) brightness(88%) contrast(92%);
+    /* transform: scale(1.1); */
 }
 
 .nextJsImgDiv{
-    width: 80%;
+    width: 40%;
     margin: auto;
-    height: 80%;
+    height: 10vh;
+}
+.bkashSkillImgDiv{
+    width: 30%;
+    margin: auto;
+    height: 8vh;
+}
+.bkashGrayIcons{
+    filter: grayscale(100%);
+}
+.nextJsImgDiv:hover .skillsName{
+    color: rgb(139, 90, 238);
+    opacity: 100%;
+}
+.bkashSkillImgDiv:hover .skillsName{
+    color: rgb(139, 90, 238);
+    opacity: 100%;
+}
+.paySkillImgDiv{
+    width: 40%;
+    margin: auto;
+    height: 9vh
+}
+.paySkillImgDiv:hover .skillsName{
+    color: rgb(139, 90, 238);
+    opacity: 100%;
 }
 
+@media (max-width: 600px){
+    .skillImgDiv{
+        width: 90%;
+        height: 8vh;
+    }
+    .nextJsImgDiv{
+        width: 50%;
+        margin: auto;
+        height: 8vh;
+    } 
+    .skillImg{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        filter: invert(98%) sepia(10%) saturate(69%) hue-rotate(53deg) brightness(75%) contrast(100%);
+        transition: 0.4s ease-in-out;
+     }
+     .skillImg:hover{
+        filter: invert(67%) sepia(34%) saturate(457%) hue-rotate(216deg) brightness(88%) contrast(92%);
+        /* transform: scale(1.1); */
+    }
+     .grayIcons{
+        filter: grayscale(50%);
+    }
+     .bkashSkillImgDiv{
+        width: 35%;
+        margin: auto;
+        height: 8vh;
+    }
+    .bkashGrayIcons{
+        filter: grayscale(100%);
+    }
+    .nextJsImgDiv:hover .skillsName{
+        color: rgb(139, 90, 238);
+        opacity: 100%;
+    }
+    .bkashSkillImgDiv:hover .skillsName{
+        color: rgb(139, 90, 238);
+        opacity: 100%;
+    }
+    .paySkillImgDiv{
+        width: 45%;
+        margin: auto;
+        height: 9vh
+    }
+    .paySkillImgDiv:hover .skillsName{
+        color: rgb(139, 90, 238);
+        opacity: 100%;
+    }
+}

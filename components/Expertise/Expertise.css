@@ -1,34 +1,74 @@
+.expertiseBG{
+    background-color: rgb(246,243,252);
+}
 .icon{
-    color: #FF014F;
+    color: rgb(136, 80, 247);
 }
 .expertName{
    color: #C4CFDE;
 }
 .expertiseCard{
-    background: #131517;
+    background: #FFFFFF;
     padding: 3px 10px;
-    box-shadow:  -2px -2px 8px rgba(199, 198, 198, 0.282), 
+    color: black;
+    /* box-shadow:  -2px -2px 8px rgba(199, 198, 198, 0.282), 
 	             2px 2px 8px rgb(44, 44, 44), 
 	             inset -2px -2px 8px rgba(204, 204, 204, 0.271),
 	             inset 2px 2px 8px rgba(35, 33, 33, 0.101);
-    border:5px solid rgb(26, 28, 31);
+    border:5px solid rgb(26, 28, 31); */
     padding: 10px 15px;
+    border: 0.9px solid rgb(136, 80, 247);
     cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 .expertiseCard:hover{
     margin-top: -10px;
-    box-shadow: 15px 15px 20px rgba(13, 13, 13, 0.704);
-    border: 5px solid rgba(204, 204, 204, 0.271);
-    transition: 0.4s ease-in-out;
+    /* background: #FFFFFF; */
+    padding: 3px 10px;
+    color: white;
+    /* box-shadow:  -2px -2px 8px rgba(199, 198, 198, 0.282), 
+	             2px 2px 8px rgb(44, 44, 44), 
+	             inset -2px -2px 8px rgba(204, 204, 204, 0.271),
+	             inset 2px 2px 8px rgba(35, 33, 33, 0.101);
+    border:5px solid rgb(26, 28, 31); */
+    padding: 10px 15px;
+    background-color: rgb(196, 169, 249);
+    border: 0.9px solid rgb(136, 80, 247);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 1024px){
 
+    .expertiseCard{
+        background: #FFFFFF;
+        padding: 3px 10px;
+        color: black;
+        /* box-shadow:  -2px -2px 8px rgba(199, 198, 198, 0.282), 
+                     2px 2px 8px rgb(44, 44, 44), 
+                     inset -2px -2px 8px rgba(204, 204, 204, 0.271),
+                     inset 2px 2px 8px rgba(35, 33, 33, 0.101);
+        border:5px solid rgb(26, 28, 31); */
+        padding: 10px 15px;
+        border: 0.9px solid rgb(136, 80, 247);
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
     .expertiseCard:hover{
-        margin-top: -0px;
-        box-shadow: 10px 10px 25px rgba(196, 191, 191, 0.197);
-        border: 5px solid rgba(204, 204, 204, 0.271);
-        transition: 0.4s ease-in-out;
+        margin-top: -10px;
+        /* background: #FFFFFF; */
+        padding: 3px 10px;
+        color: white;
+        /* box-shadow:  -2px -2px 8px rgba(199, 198, 198, 0.282), 
+                     2px 2px 8px rgb(44, 44, 44), 
+                     inset -2px -2px 8px rgba(204, 204, 204, 0.271),
+                     inset 2px 2px 8px rgba(35, 33, 33, 0.101);
+        border:5px solid rgb(26, 28, 31); */
+        padding: 10px 15px;
+        background-color: rgb(196, 169, 249);
+        border: 0.9px solid rgb(136, 80, 247);
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
     }
     
 }

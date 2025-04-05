@@ -25,10 +25,7 @@ const Home = () => {
  
 
   return (
-    <main className="heroBg">
-
-    
-       
+    <main className="">
 
         <div>
         <HeroSection/>
@@ -39,8 +36,7 @@ const Home = () => {
         <ContactForm/>
         <Footer/>
        </div>
-      
-      
+       
     </main>
   )
 }

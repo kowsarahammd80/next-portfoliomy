@@ -22,11 +22,11 @@ const Skills = () => {
         <div>
 
             <section className='mx-5 xl:mx-28 lg:mx-28 md:mx-16'
-             id='Skill'
+             id='skills'
             >
 
-                  <div className='text-3xl font-semibold my-5'>
-                    <h1 className='text-white'
+                  <div className='font-semibold mt-10'>
+                    <h1 className='pb-5 lg:pb-5 xl:pb-5 text-2xl lg:text-5xl xl:text-5xl aboutMeText'
                      data-aos="fade-up"
                      data-aos-anchor-placement="top-bottom"
                      data-aos-offset="100"
@@ -34,9 +34,9 @@ const Skills = () => {
                     >My Skills</h1>
                   </div>
 
-                  <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mx-5 lg:mx-28 xl:mx-28 my-10 gap-10'>
+                  <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 mx-5 lg:mx-28 xl:mx-28 pt-5 pb-16 gap-10'>
 
-                    <div className='skillImgDiv' 
+                    <div className='nextJsImgDiv' 
                      data-aos="fade-up"
                      data-aos-anchor-placement="top-bottom"
                      data-aos-offset="100"
@@ -90,13 +90,13 @@ const Skills = () => {
                          <img src="https://www.svgrepo.com/show/358128/react.svg" className='skillImg' alt="" />
                          <p className='skillsName'>React JS</p>
                     </div>
-                    <div className='skillImgDiv nextJsImgDiv'
+                    <div className='nextJsImgDiv'
                      data-aos="fade-up"
                      data-aos-anchor-placement="top-bottom"
                      data-aos-offset="100"
                      data-aos-duration="1000"
                     >
-                         <img src="https://static-00.iconduck.com/assets.00/brand-nextjs-icon-256x256-zm2coebd.png" className='skillImg nextjsImg' alt="" />
+                         <img src="https://static-00.iconduck.com/assets.00/brand-nextjs-icon-256x256-zm2coebd.png" className='skillImg' alt="" />
                          <p className='skillsName'>Next JS</p>
                     </div>
                     <div className='skillImgDiv' 
@@ -125,6 +125,24 @@ const Skills = () => {
                     >
                          <img src="https://www.svgrepo.com/download/314392/node.svg" className='skillImg' alt="" />
                          <p className='skillsName'>Node JS</p>
+                    </div>
+                    <div className='bkashSkillImgDiv'  
+                     data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom"
+                     data-aos-offset="100"
+                     data-aos-duration="1000"
+                    >
+                         <img src="https://logos-download.com/wp-content/uploads/2022/01/BKash_Logo_icon-700x662.png" className='skillImg bkashGrayIcons' alt="" />
+                         <p className='skillsName'>Bkash</p>
+                    </div>
+                    <div className='paySkillImgDiv'  
+                     data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom"
+                     data-aos-offset="100"
+                     data-aos-duration="1000"
+                    >
+                         <img src="https://paystation.com.bd/images/logo/logo.png" className='skillImg bkashGrayIcons' alt="" />
+                         <p className='skillsName'>Pay Station</p>
                     </div>
                      
                   </div>

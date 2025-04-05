@@ -18,31 +18,31 @@ const expertice= [
   {
       "id": 2,
       "name": "Clean Code",
-      "discreiption": "An Interface that is appealing to users and beautiful to behold using modern tools.",
+      "discreiption": "An easily understandable code and good architectural pattern for humans and for future use.",
       "icon": <i class="fa-solid fa-code text-5xl"></i>
   },
   {
       "id": 3,
       "name": "User Experience",
-      "discreiption": "An Interface that is appealing to users and beautiful to behold using modern tools.",
-      "icon": <i class="fa-solid fa-desktop text-5xl"></i>
+      "discreiption": "Products that provide usability, meaningful, empathy and relevant experiences to users.",
+      "icon": <i class="fa-solid fa-briefcase text-5xl"></i>
   },
   {
       "id": 4,
       "name": "Team Work",
-      "discreiption": "An Interface that is appealing to users and beautiful to behold using modern tools.",
+      "discreiption": "A character that forms a formidable collaboration with team members to deliver great product.",
       "icon": <i class="fa-solid fa-people-group text-5xl"></i>
   },
   {
       "id": 5,
       "name": "Leadership",
-      "discreiption": "An Interface that is appealing to users and beautiful to behold using modern tools.",
+      "discreiption": "Lead a team of bright minds to solve technical, business and comprehensive problems.",
       "icon": <i class="fa-solid fa-user-tie text-5xl"></i>
   },
   {
       "id": 6,
       "name": "Creative Design",
-      "discreiption": "An Interface that is appealing to users and beautiful to behold using modern tools.",
+      "discreiption": "Designs that are unique, effective, creating a strong impression and building consumer trust.",
       "icon": <i class="fa-solid fa-pencil text-5xl"></i>
   }
 ]
@@ -59,12 +59,12 @@ const Expertise = () => {
  }, []) 
 
     return (
-        <div className=' '>
+        <div className='expertiseBG'>
 
-            <section className='mx-5 xl:mx-28 md:mx-16 lg:mx-28 my-10 lg:my-20'>
+            <section className='mx-5 xl:mx-28 md:mx-16 lg:mx-28 py-5 lg:py-20 xl:py-20'>
 
-                  <div className='text-2xl lg:text-3xl xl:text-3xl md:text-2xl' id='expert'>
-                      <h1 className='font-semibold my-5 text-white' 
+                  <div className='text-2xl lg:text-3xl xl:text-3xl md:text-2xl' id='expertise'>
+                      <h1 className='font-semibold pb-5 lg:pb-10 xl:pb-10 text-2xl lg:text-5xl xl:text-5xl aboutMeText ' 
                        data-aos="fade-up"
                        data-aos-anchor-placement="top-bottom"
                                            data-aos-offset="100"
@@ -87,8 +87,8 @@ const Expertise = () => {
                             <p className='text-5xl icon'>{expert.icon}</p>
                          </div>
                          <div className='text-center'>
-                            <h1 className='text-2xl font-medium my-4 expertName'>{expert.name}</h1>
-                            <p className='expertName'>{expert.discreiption}</p>
+                            <h1 className='text-2xl font-medium my-4'>{expert.name}</h1>
+                            <p className=''>{expert.discreiption}</p>
                          </div>
                      </div>) 
                        }

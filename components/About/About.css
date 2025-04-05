@@ -1,17 +1,21 @@
+.aboutBg{
+    background-color: #FFFFFF;
+}
 .aboutIamgeDiv{
     width: 100%;
-    height: 65vh;
+    height: 60vh;
     background-color: #1e2124;
-    box-shadow:  -4px -4px 12px rgba(199, 198, 198, 0.282), 
-	4px 4px 10px rgb(44, 44, 44), 
-	 inset -4px -4px 8px rgba(204, 204, 204, 0.271),
-	 inset 15px 15px 15px rgba(35, 33, 33, 0.101); 
-     border:5px solid #131517;
-     /* border-radius: 220px 220px 0px 0px;     */
+    /* box-shadow:  -8px -8px 15px rgba(74, 74, 74, 0.693), 
+	10px 10px 15px rgba(80, 79, 79, 0.326), 
+	 inset -8px -8px 12px rgba(204, 204, 204, 0.271),
+	 inset 15px 15px 20px rgba(35, 33, 33, 0.101); 
+     border:6px solid #1d1f22; */
+     /* border-radius: 220px 220px 0px 0px;   */
+     border-radius: 30px;
 }
 .peraText{
-    color: #B3BDCA;
-    font-weight: 500;
+    color: rgb(20,12,28);
+    font-size: 20px;
 }
 .downloadResume{
     color: #F9004D;
@@ -30,4 +34,16 @@
 }
 .downloadResume:hover{
    box-shadow: 10px 10px 15px black;
+}
+.aboutMeText{
+    background: linear-gradient(to right, rgb(157, 116, 239), rgb(61,32,117)); /* Define gradient colors */
+    -webkit-background-clip: text; /* Apply background to text */
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 600px){
+    .peraText{
+        color: rgb(20,12,28);
+        font-size: 16px;
+    }
 }

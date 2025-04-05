@@ -1,16 +1,13 @@
-"use client"
+"use client";
 
 import React, { useRef } from "react";
 import "./ContactForm.css";
 import AOS from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
-import emailjs from '@emailjs/browser';
-
-
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -34,7 +31,7 @@ const ContactForm = () => {
           console.log(error.text);
         }
       );
-      form.current.reset();
+    form.current.reset();
   };
 
   useEffect(() => {
@@ -44,12 +41,23 @@ const ContactForm = () => {
     });
   }, []);
 
+  const phoneNumber = "+8801760075031"; // Replace with your number
+  const email = "kowsarahammed80@gmail.com"; // Replace with your email
+
+  const handleCall = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
+
+  const handleEmail = () => {
+    window.location.href = `mailto:${email}`;
+  };
+
   return (
     <div id="contact">
       <section className="my-10 lg:my-16 mx-5 lg:mx-28 xl:mx-28 md:mx-16">
-        <div className="text-3xl font-semibold">
+        <div className="font-semibold pb-5 lg:pb-10 xl:pb-10 text-2xl lg:text-5xl xl:text-5xl aboutMeText ">
           <h1
-            className="text-white"
+            className=""
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
             data-aos-offset="100"
@@ -62,7 +70,7 @@ const ContactForm = () => {
         <div className="flex flex-col-reverse lg:flex-row xl:flex-row md:flex-row w-full my-5 lg:my-10 gap-4">
           <form
             action=""
-            className="formdiv w-full"
+            className="formdiv w-full p-5 lg:p-10 xl:p-10 md:p-8 shadow-lg"
             ref={form}
             onSubmit={sendEmail}
             data-aos="fade-up"
@@ -102,7 +110,7 @@ const ContactForm = () => {
                 placeholder="Message"
               ></textarea>
             </div>
-            <button className="contactButton my-2 font-semibold">
+            <button className="get-started my-2 font-semibold">
               Send Message
             </button>
           </form>
@@ -110,7 +118,8 @@ const ContactForm = () => {
           <div className="mx-0 lg:mx-16 flex items-center w-full">
             <div className="w-full">
               <div
-                className="border contactDiv p-3 flex items-center w-full my-3"
+                onClick={handleEmail}
+                className=" contactDiv p-3 flex items-center w-full my-3"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-offset="100"
@@ -124,11 +133,13 @@ const ContactForm = () => {
                 </span>
               </div>
               <div
-                className="border contactDiv p-3 flex items-center w-full my-3"
+               
+                className=" contactDiv p-3 flex items-center w-full my-3"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-offset="100"
                 data-aos-duration="1000"
+                onClick={handleCall}
               >
                 <span className="contactIcon ms-1 lg:ms-5 md:ms-0 me-2 lg:me-5 md:me-2">
                   <i class="fa-solid fa-phone"></i>
@@ -138,7 +149,7 @@ const ContactForm = () => {
                 </span>
               </div>
               <div
-                className="border contactDiv p-3 flex items-center w-full"
+                className=" contactDiv p-3 flex items-center w-full"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-offset="100"
@@ -148,7 +159,7 @@ const ContactForm = () => {
                   <i class="fa-solid fa-location-dot"></i>
                 </span>
                 <span className="text-md lg:text-xl contactText">
-                  Johirul Islam City Aftab Nagar, Badda, Dhakka-1212
+                  jahurul islam city Aftab Nagar, Badda, Dhakka-1212
                 </span>
               </div>
             </div>
