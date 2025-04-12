@@ -42,7 +42,7 @@ const Skills = () => {
                      data-aos-offset="100"
                      data-aos-duration="1000"
                     >
-                         <img src="https://www.shareicon.net/download/2016/07/09/118544_development.ico" className='skillImg iconColor' alt="" id='html' />
+                         <img src="https://cdn-icons-png.flaticon.com/512/274/274429.png" className='skillImg iconColor' alt="" id='html' />
                          <p className='skillsName'>HTML</p>
                     </div>
                     <div className='skillImgDiv nextJsImgDiv' 
