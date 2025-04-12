@@ -61,11 +61,11 @@ const Expertise = () => {
   }, []);
 
   return (
-    <div className="expertiseBG">
+    <div className="expertiseBG" id="expertise">
       <section className="mx-5 xl:mx-28 md:mx-16 lg:mx-28 py-5 lg:py-20 xl:py-20">
         <div
           className="text-2xl lg:text-3xl xl:text-3xl md:text-2xl"
-          id="expertise"
+          
         >
           <h1
             className="font-semibold pb-5 lg:pb-10 xl:pb-10 text-2xl lg:text-5xl xl:text-5xl aboutMeText "

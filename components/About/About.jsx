@@ -16,10 +16,10 @@ const About = () => {
  }, []) 
 
   return (
-    <div className="aboutBg">
+    <div className="aboutBg" id="about">
       <section
         className="mx-5 lg:mx-24 xl:mx-24 md:mx-16 py-5 lg:py-16 flex items-center"
-        id="about"
+        
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
           <div className="hidden lg:block xl:block justify-center items-center mx-5 lg:mx-28 xl:mx-28 md:mx-10">
@@ -51,7 +51,7 @@ const About = () => {
                 <p className="peraText">
                   Hi, I am a MERN stack Developer. I am an expert in Rect JS, Next JS,
                   Express JS, Node js, Mongo DB, javascript, HTML5, CSS3, Bootstrap, Tailwindcss,
-                  responsiveness and other essential tools.
+                  responsiveness, other essential tools and Baksh and Pay Staion payment integration also.
                 </p>
 
                 <p className="py-5 peraText mb-2 lg:mb-10 xl:mb-10">

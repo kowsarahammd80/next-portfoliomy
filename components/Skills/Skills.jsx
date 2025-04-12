@@ -19,10 +19,10 @@ const Skills = () => {
  
     return (
      
-        <div>
+        <div id='skills'>
 
             <section className='mx-5 xl:mx-28 lg:mx-28 md:mx-16'
-             id='skills'
+             
             >
 
                   <div className='font-semibold mt-10'>

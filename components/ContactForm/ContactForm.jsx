@@ -80,6 +80,7 @@ const ContactForm = () => {
           >
             <div className="inputDiv w-full my-3">
               <input
+              required
                 type="text"
                 name="from_name"
                 className="inputfild w-full p-2"
@@ -88,6 +89,7 @@ const ContactForm = () => {
             </div>
             <div className="inputDiv my-3">
               <input
+              required
                 type="email"
                 name="from_email"
                 className="inputfild w-full p-2"
@@ -96,6 +98,7 @@ const ContactForm = () => {
             </div>
             <div className="inputDiv my-3">
               <input
+               required
                 type="text"
                 name="from_number"
                 className="inputfild w-full p-2"
@@ -104,6 +107,7 @@ const ContactForm = () => {
             </div>
             <div className="textDiv my-3">
               <textarea
+               required
                 name="from_service"
                 id=""
                 className="w-full h-40 textfild p-2"
