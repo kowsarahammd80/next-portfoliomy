@@ -56,7 +56,7 @@ const HeroSection = () => {
               </p> */}
 
               <p className="text-2xl lg:text-6xl xl:text-6xl md:text-3xl nextLevelText font-semibold pb-2 lg:pb-4 xl:pb-4 mb:pb-3">
-                Mernt Stack Web Developer.
+                Mern Stack Web Developer.
               </p>
 
               <p className="text-xl leading-1.5 text-primary-color-light dark:text-body-color max-w-540px w-full lg:w-9/12 xl:w-9/12 pt-1 lg:pt-4 xl:pt-4 md:pt-3 herPera">
