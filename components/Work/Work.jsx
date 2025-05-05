@@ -154,11 +154,11 @@ const projects = [
 const liveProject = [
   {
     id: 1,
-    img: "https://i.ibb.co.com/Rpyz60TH/Screenshot-2025-04-05-195010.png",
+    img: "https://i.ibb.co.com/5gZrP2hV/whatheta-Hero.png",
     name: "Watheta",
     discription:
       "This project is Watheta company websitean this is project right now on going for developmet. This project mack by Next Js, Tailwindcss, Node Js, Express JS, Mongodb and Bkash or Paystation for payment",
-    liveLink: "https://watheta.netlify.app/",
+    liveLink: "https://watheta.com",
     // code: "https://github.com/kowsarahammd80/edTech-website",
   },
   {
