@@ -30,7 +30,7 @@ const About = () => {
               data-aos-duration="2000"
             >
               <img
-                src="https://i.ibb.co/XzvzSFB/Untitled-design-6.png"
+                src="https://i.ibb.co.com/qYqZwY5k/portfolio-Img.jpg"
                 className="heroImg"
                 alt=""
               />
