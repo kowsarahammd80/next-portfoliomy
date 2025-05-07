@@ -10,7 +10,7 @@ const allProjects = [
 
   {
     id: 10,
-    img: "https://i.ibb.co.com/Rpyz60TH/Screenshot-2025-04-05-195010.png",
+    img: "https://i.ibb.co.com/5gZrP2hV/whatheta-Hero.png",
     name: "Watheta",
     discription:
       "This project is Watheta company websitean this is project right now on going for developmet. This project mack by Next Js, Tailwindcss, Node Js, Express JS, Mongodb and Bkash or Paystation for payment",
@@ -256,7 +256,7 @@ const Work = () => {
               <div class="cover">
                 
                 <div class="coverBack">
-                  <img src={project.img} className="projectImg" alt="" />
+                  <img src={project.img} className="projectImg" alt=""/>
                 </div>
               </div>
             </div>
