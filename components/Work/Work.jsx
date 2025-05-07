@@ -14,7 +14,7 @@ const allProjects = [
     name: "Watheta",
     discription:
       "This project is Watheta company websitean this is project right now on going for developmet. This project mack by Next Js, Tailwindcss, Node Js, Express JS, Mongodb and Bkash or Paystation for payment",
-    liveLink: "https://watheta.netlify.app/",
+    liveLink: "https://watheta.com",
     // code: "https://github.com/kowsarahammd80/edTech-website",
   },
   {
