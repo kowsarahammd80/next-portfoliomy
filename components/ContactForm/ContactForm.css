@@ -4,12 +4,6 @@
     height: 50px;
     color: rgb(57, 57, 57);
     outline: none;
-    /* background-color: #1e2124; */
-    /* box-shadow:  -8px -8px 15px rgba(74, 74, 74, 0.693), 
-	10px 10px 15px rgba(80, 79, 79, 0.326), 
-	 inset -8px -8px 12px rgba(204, 204, 204, 0.271),
-	 inset 15px 15px 20px rgba(35, 33, 33, 0.101); 
-     border:5px solid #1d1f22; */
     border-radius: 5px;
 }
 .inputDiv{
@@ -28,46 +22,27 @@
     height: 120px;
     color: rgb(57, 57, 57);
     outline: none;
-    /* background-color: #1e2124; */
-    /* box-shadow:  -8px -8px 15px rgba(74, 74, 74, 0.693), 
-	10px 10px 15px rgba(80, 79, 79, 0.326), 
-	 inset -8px -8px 12px rgba(204, 204, 204, 0.271),
-	 inset 15px 15px 20px rgba(35, 33, 33, 0.101); 
-     border:5px solid #1d1f22; */
     border-radius: 5px;
 }
 .formdiv{
-    /* box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.186),inset -20px -20px -60px rgba(255, 255, 255, 0.29); */
     background: linear-gradient(to left, rgb(231,221,254), rgb(255, 254, 255));
-    /* background-color: white; */
 }
 .contactDiv{
-    /* box-shadow: 1px 1px 5px rgb(215, 214, 214); */
     border-radius: 3.3px;
     height: 70px;
-    /* background-color: #1e2124; */
-    /* box-shadow:  -8px -8px 15px rgba(74, 74, 74, 0.693), 
-	10px 10px 15px rgba(80, 79, 79, 0.326), 
-	 inset -8px -8px 12px rgba(204, 204, 204, 0.271),
-	 inset 15px 15px 20px rgba(35, 33, 33, 0.101); 
-     border:5px solid #1d1f22; */
     border-radius: 5px;
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
 .contactText{
-    /* color: #C4CFDE; */
-    /* font-size: 20px; */
     outline: none;
     background: linear-gradient(to right, rgb(139, 90, 238), rgb(61,32,117)); /* Define gradient colors */
-    -webkit-background-clip: text; /* Apply background to text */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
     transition: 0.5s ease-in-out;
 }
 .contactDiv:hover span{
-    /* box-shadow: 5px 5px 10px rgb(141, 140, 140); */
-    /* text-shadow: 10px 10px 15px rgb(3, 3, 3); */
     margin-top: -5px;
     
 }

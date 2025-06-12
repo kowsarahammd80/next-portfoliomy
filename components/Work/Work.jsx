@@ -29,7 +29,7 @@ const allProjects = [
   {
     id: 13,
     img: "https://i.ibb.co.com/B5dTG9Bg/Screenshot-2025-04-05-202650.png",
-    name: "Review QR",
+    name: "Bookmark",
     discription:
       "This project is E-commerce website. This project mack by Next Js, Bootstrap, Node Js, Express JS, Mongodb",
     liveLink: "https://www.bookmark.com.bd/",
@@ -173,7 +173,7 @@ const liveProject = [
   {
     id: 13,
     img: "https://i.ibb.co.com/B5dTG9Bg/Screenshot-2025-04-05-202650.png",
-    name: "Review QR",
+    name: "Bookmark",
     discription:
       "This project is E-commerce website. This project mack by Next Js, Bootstrap, Node Js, Express JS, Mongodb",
     liveLink: "https://www.bookmark.com.bd/",
