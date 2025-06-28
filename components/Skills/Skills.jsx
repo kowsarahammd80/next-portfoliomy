@@ -96,7 +96,7 @@ const Skills = () => {
                      data-aos-offset="100"
                      data-aos-duration="1000"
                     >
-                         <img src="https://static-00.iconduck.com/assets.00/brand-nextjs-icon-256x256-zm2coebd.png" className='skillImg' alt="" />
+                         <img src="https://images.seeklogo.com/logo-png/39/2/next-js-logo-png_seeklogo-394608.png" className='skillImg' alt="" />
                          <p className='skillsName'>Next JS</p>
                     </div>
                     <div className='skillImgDiv' 
